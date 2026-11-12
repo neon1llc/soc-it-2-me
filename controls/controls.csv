@@ -1,0 +1,45 @@
+id,area,control,owner,frequency,evidence,soc2,iso27001
+GOV-01,Governance,"Leadership approves the security program, its owner, and its budget, and reviews progress at least twice a year.",CEO,Semiannual,"Meeting notes or minutes with attendees, date, and decisions",CC1.2; CC1.3; CC2.1,5.1; 5.2; Clause 9.3
+GOV-02,Governance,"A named security owner has written responsibilities and the time to carry them out.",CEO,Annual,"Role description or org chart naming the owner; leadership sign-off",CC1.3; CC1.5,5.2; 5.4
+GOV-03,Governance,"Security policies are written, approved, published where staff can find them, and reviewed each year.",Security owner,Annual,"Policy set with version, approver, and approval date; review record",CC5.3; CC2.2,5.1; 5.37
+GOV-04,Governance,"Everyone acknowledges the code of conduct and key policies at hire and each year.",People lead,At hire; Annual,"Acknowledgment records from the HR or e-signature tool",CC1.1; CC2.2,6.2; 5.10
+GOV-05,Governance,"Customer commitments (security terms, SLAs, and the system description) are kept current and shared with customers.",Security owner,Annual,"Published trust page or contract template; dated system description",CC2.3,5.31; 5.20
+RISK-01,Risk,"A risk assessment covering security, fraud, and major changes is done each year and when the business changes.",Security owner,Annual; On change,"Risk register with likelihood, impact, owner, treatment, and review date",CC3.1; CC3.2; CC3.3; CC3.4,Clause 6.1.2; 5.7
+RISK-02,Risk,"Each high risk has an owner and a treatment plan that leadership has accepted.",Security owner,Annual,"Register entries with treatment, owner, and acceptance sign-off",CC3.2; CC5.1; CC9.1,Clause 6.1.3
+RISK-03,Risk,"An inventory of systems, data stores, and the data each holds is kept current.",Engineering lead,Quarterly,"System and data inventory with owner and data classification",CC3.2; CC6.1; C1.1,5.9; 5.12
+RISK-04,Risk,"An independent check of the controls (internal review or outside readiness assessment) happens each year.",Security owner,Annual,"Review report and the tracked fixes",CC4.1; CC4.2,5.35; Clause 9.2
+PPL-01,People,"New hires are background checked where the law allows, before they get access to customer data.",People lead,At hire,"Check completion record for each hire in the period",CC1.4,6.1
+PPL-02,People,"Staff and contractors sign confidentiality terms before access.",People lead,At hire,"Signed agreements for each hire and contractor",CC1.1; C1.1,6.2; 6.6
+PPL-03,People,"Everyone completes security awareness training at hire and each year.",Security owner,At hire; Annual,"Training completion report with names and dates",CC1.4; CC2.2,6.3
+PPL-04,People,"Performance and conduct issues, including security policy breaches, follow a written process.",People lead,On event,"Disciplinary policy; anonymized case log if any occurred",CC1.5,6.4
+ACC-01,Access,"Access is granted by role, approved by the system owner, and recorded in a ticket.",System owners,On request,"Access request tickets with approver and date, sampled across the period",CC6.2; CC6.3,5.15; 5.18
+ACC-02,Access,"Departing staff lose access to every system within one business day.",People lead; IT,On departure,"Departure list matched to account disable times",CC6.2; CC6.3,5.18; 6.5
+ACC-03,Access,"System owners review who has access each quarter and fix what they find.",System owners,Quarterly,"Signed review with the user list, the changes made, and dates",CC6.2; CC6.3; CC4.1,5.18
+ACC-04,Access,"Single sign-on and phishing-resistant two-step sign-in are required for company systems.",IT,Continuous,"SSO and MFA policy settings; report of users and MFA status",CC6.1,5.17; 8.5
+ACC-05,Access,"Administrator and production access is limited to named people, uses separate accounts, and is logged.",Engineering lead,Quarterly,"Admin list; access logs; review record",CC6.1; CC6.3,8.2; 8.3
+ACC-06,Access,"Service accounts and keys have owners, are stored in a secrets manager, and are rotated.",Engineering lead,Quarterly,"Secrets inventory with owners and last rotation dates",CC6.1,5.17; 8.24
+END-01,Endpoints,"Company laptops and phones are managed, encrypted, screen locked, and kept up to date.",IT,Continuous,"Device management compliance report",CC6.1; CC6.7; CC6.8,8.1; 8.7
+PHY-01,Endpoints,"Office and equipment areas are locked, and visitors are signed in; data center security is inherited from the cloud provider.",Office lead,Continuous,"Office access list; visitor log; cloud provider SOC report",CC6.4,7.1; 7.2; 7.4
+END-02,Endpoints,"Lost or stolen devices are reported and wiped, and retired devices are wiped with a record.",IT,On event,"Device log with wipe confirmations",CC6.5; C1.2,7.10; 7.14; 8.10
+NET-01,Network,"Production networks restrict inbound traffic to what is needed, and changes go through review.",Engineering lead,Continuous,"Firewall or security group rules; change tickets",CC6.6,8.20; 8.22
+NET-02,Network,"Data is encrypted in transit and at rest with managed keys.",Engineering lead,Continuous,"TLS configuration; storage and database encryption settings",CC6.1; CC6.7,8.24
+VUL-01,Vulnerabilities,"Systems and dependencies are scanned for vulnerabilities, and findings are fixed within set timeframes.",Engineering lead,Continuous,"Scan reports; tickets showing fix dates against the policy timeframes",CC7.1,8.8
+VUL-02,Vulnerabilities,"An outside penetration test runs each year and its findings are tracked to closure.",Security owner,Annual,"Test report; remediation tickets",CC4.1; CC7.1,8.8; 8.29
+CHG-01,Change,"Code and infrastructure changes are reviewed by someone other than the author before production.",Engineering lead,On change,"Pull requests with an approving reviewer, sampled across the period",CC8.1,8.32; 5.3
+CHG-02,Change,"Changes pass automated tests and deploy through a pipeline; no one edits production by hand.",Engineering lead,On change,"Pipeline configuration; branch protection settings; deploy logs",CC8.1; CC5.2,8.25; 8.32
+CHG-03,Change,"Development, test, and production are separate, and production data is not used in testing.",Engineering lead,Continuous,"Account or environment layout; data handling rule",CC8.1; C1.1,8.31; 8.33
+CHG-04,Change,"Emergency changes are allowed, recorded, and reviewed after the fact.",Engineering lead,On event,"Emergency change log with after-the-fact approvals",CC8.1,8.32
+OPS-01,Operations,"Logs from production and identity systems are collected, kept for a set time, and protected from change.",Engineering lead,Continuous,"Log settings with retention; access restrictions",CC7.2,8.15
+OPS-02,Operations,"Alerts for security events and outages reach an on-call person, who responds.",Engineering lead,Continuous,"Alert rules; on-call schedule; sample alert with response",CC7.2; CC7.3; A1.1,8.16
+OPS-03,Operations,"Capacity and performance are monitored against thresholds.",Engineering lead,Continuous,"Dashboards and alert thresholds",A1.1,8.6
+INC-01,Incidents,"A written incident response plan names roles, severity levels, and contact steps, including customer notice.",Security owner,Annual,"Approved plan with review date",CC7.3; CC7.4; CC2.3,5.24; 5.26
+INC-02,Incidents,"Incidents are logged, handled per the plan, and closed with lessons learned.",Security owner,On event,"Incident tickets with timeline, actions, and a review",CC7.4; CC7.5,5.25; 5.26; 5.27; 5.28
+INC-03,Incidents,"The incident plan is exercised with a tabletop each year.",Security owner,Annual,"Tabletop notes with attendees, scenario, and follow-ups",CC7.4; CC7.5,5.24; 5.27
+BCP-01,Continuity,"Backups run on schedule, are encrypted, and are stored apart from production.",Engineering lead,Continuous,"Backup settings and job history",A1.2; CC7.5,8.13
+BCP-02,Continuity,"A restore from backup is tested at least each year, with the time it took recorded.",Engineering lead,Annual,"Restore test record with date, data restored, and duration",A1.3; CC7.5,8.13; 5.30
+BCP-03,Continuity,"A continuity plan covers loss of a key system, provider, or person, and is reviewed each year.",Security owner,Annual,"Approved plan; review record",CC9.1; A1.2; A1.3,5.29; 5.30
+VEN-01,Vendors,"Vendors that touch customer data are reviewed before signing and each year, by risk.",Security owner,Before signing; Annual,"Vendor list with risk tier; review records; SOC reports collected",CC9.2,5.19; 5.21; 5.22
+VEN-02,Vendors,"Contracts with key vendors include security and confidentiality terms.",Security owner,Before signing,"Contracts or DPAs with security clauses",CC9.2,5.20
+VEN-03,Vendors,"Customer responsibilities from vendor SOC reports (complementary user entity controls) are met.",Security owner,Annual,"Vendor CUEC list mapped to the company's own controls",CC9.2,5.23
+DATA-01,Data,"Data is classified, and confidential data is handled per its class.",Security owner,Annual,"Classification policy; inventory showing classes",C1.1,5.12; 5.13
+DATA-02,Data,"Customer data is deleted on request or at contract end, within a set time, with a record.",Engineering lead,On request,"Deletion requests with completion dates",C1.2,8.10

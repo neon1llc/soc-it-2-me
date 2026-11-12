@@ -1,0 +1,21 @@
+name: check
+
+# Every change keeps the Markdown sound: front matter on each page, and every relative link
+# pointing at a file that exists
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check pages and links
+        run: node tools/check.mjs
+      - name: Check the controls map is current and covers every criterion
+        run: node tools/build-map.mjs --check

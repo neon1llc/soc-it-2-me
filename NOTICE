@@ -1,0 +1,13 @@
+SOC It 2 Me
+Copyright (c) 2026 neon1 LLC (neon1.tech)
+
+SOC It 2 Me is a neon1 project: hands-on SOC 2 readiness training for small and growing companies.
+https://github.com/neon1llc/soc-it-2-me
+
+Required credit: "Based on SOC It 2 Me by neon1 (neon1.tech)"
+
+Written material (everything except tools/ and .github/) is under CC BY-SA 4.0,
+see LICENSE. Code (tools/ and .github/) is under the MIT License, see LICENSE-CODE.
+The names "SOC It 2 Me" and "neon1" and the neon1 logo are reserved, see TRADEMARK.md.
+
+Keep this file in copies and adaptations.

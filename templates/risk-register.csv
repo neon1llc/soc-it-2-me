@@ -1,0 +1,8 @@
+id,risk,asset,likelihood_1to5,impact_1to5,score,treatment,controls,owner,accepted_by,review_date,notes
+R-01,"An engineer's laptop is stolen with production credentials on it",Customer data,3,4,12,Reduce,"END-01; ACC-05; ACC-06",Engineering lead,,YYYY-MM-DD,
+R-02,"A phishing email captures a staff member's password",Customer data,4,4,16,Reduce,"ACC-04; PPL-03",Security owner,,YYYY-MM-DD,
+R-03,"A vendor that holds customer data is breached",Customer data,2,4,8,Reduce,"VEN-01; VEN-02",Security owner,,YYYY-MM-DD,
+R-04,"A fake invoice or bank change request gets paid",Money,3,3,9,Reduce,"PPL-03",Finance lead,,YYYY-MM-DD,
+R-05,"Our cloud region has a long outage",Service availability,2,4,8,Accept,"BCP-03",Engineering lead,CEO,YYYY-MM-DD,"Multi-region cost outweighs the risk at our size"
+R-06,"A bad deploy corrupts customer data",Customer data,2,5,10,Reduce,"CHG-01; CHG-02; BCP-02",Engineering lead,,YYYY-MM-DD,
+R-07,"A departed employee keeps access to a tool",Customer data,3,3,9,Reduce,"ACC-02; ACC-03",People lead,,YYYY-MM-DD,

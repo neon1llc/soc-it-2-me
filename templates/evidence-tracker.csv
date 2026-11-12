@@ -1,0 +1,8 @@
+control_id,instance,due_date,owner,backup_owner,evidence_location,status,collected_on,notes
+ACC-03,Q1 access review,YYYY-MM-DD,System owners,Security owner,"Tickets: ACCESS-REVIEW-Q1",Not started,,
+ACC-03,Q2 access review,YYYY-MM-DD,System owners,Security owner,"Tickets: ACCESS-REVIEW-Q2",Not started,,
+ACC-04,SSO and MFA settings export,YYYY-MM-DD,IT,Engineering lead,"Drive: evidence/ACC-04",Not started,,
+CHG-01,Merged pull requests for the window (population),YYYY-MM-DD,Engineering lead,,"Repository export",Not started,,
+PPL-03,Yearly training completion,YYYY-MM-DD,Security owner,People lead,"Training tool report",Not started,,
+BCP-02,Yearly restore test,YYYY-MM-DD,Engineering lead,,"Ticket: RESTORE-TEST",Not started,,
+INC-03,Yearly tabletop,YYYY-MM-DD,Security owner,,"Drive: evidence/INC-03",Not started,,
