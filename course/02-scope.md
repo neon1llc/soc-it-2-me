@@ -50,3 +50,8 @@ Using the [system description outline](../templates/system-description-outline.m
 3. Why keep the first scope small?
 
 Next: [3. Find your real risks](03-risk.md).
+
+## Sources
+
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.
+- [SOC 2 overview](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2), from the AICPA: what a SOC 2 report is and who issues one.

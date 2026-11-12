@@ -23,3 +23,8 @@ Repository rules that require review on the main branch, with bypass limited to 
 - Admins bypassing review, with no record of why.
 - Infrastructure changed by hand in the cloud console, with no ticket or pull request.
 - An approving review from the author's second account, or a review approved after the merge.
+
+## Sources
+
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.
+- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), from ISO: the information security management system standard and its Annex A controls, a paid standard cited here by clause and control number.

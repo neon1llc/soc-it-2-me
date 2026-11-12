@@ -3,11 +3,11 @@ title: "4. Write controls you can keep"
 description: "Turn the starter controls map into your own list: testable statements with an owner, a frequency, and the proof each leaves behind."
 ---
 
-**Objectives.** By the end of this module you can write a control an auditor can test, cut the starter map down to what your company really does, and spot a control that will fail before the auditor does.
+**Objectives.** By the end of this module you can write a control an auditor can test, cut the starter map down to what your company does, and spot a control that will fail before the auditor does.
 
 ## What a control is
 
-A control is a promise with a receipt. It says who does what, how often, and what record it leaves. A good one reads like this:
+A control is something the company does, on a schedule or on every event, that leaves a record. It says who does what, how often, and what record it leaves. A good one reads like this:
 
 > System owners review who has access to each production system every quarter, remove access that's no longer needed, and record the review in a signed ticket.
 
@@ -30,7 +30,7 @@ A weak one reads like "Access is reviewed regularly." Who reviews? How often is 
 
 ## Cutting the map down
 
-The [controls map](../controls/controls-map.md) has 44 starter controls. Most small companies keep 30 to 40, rewritten in their own words. Go through each row and ask:
+The [controls map](../controls/controls-map.md) has 44 starter controls. Expect to keep most of them, rewritten in your own words, and cut the ones that don't fit. Go through each row and ask:
 
 1. **Do we do this today?** If yes, rewrite it to match exactly what you do, not what the template says.
 2. **If not, should we?** Check your risk register. If a high risk depends on it, plan to start. If not, and no criterion goes uncovered without it, cut it.
@@ -55,3 +55,8 @@ Copy [controls.csv](../controls/controls.csv) into a spreadsheet. For each row, 
 3. What's wrong with "Logs are monitored regularly"?
 
 Next: [5. Policies people read](05-policies.md).
+
+## Sources
+
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.
+- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), from ISO: the information security management system standard and its Annex A controls, a paid standard cited here by clause and control number.

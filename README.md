@@ -40,7 +40,7 @@ The controls map carries ISO 27001:2022 references next to the SOC 2 criteria, s
 
 ## What this isn't
 
-SOC It 2 Me is readiness training, not audit or legal advice. Only a licensed CPA firm can issue a SOC 2 report. SOC 2 and the Trust Services Criteria are from the AICPA, and ISO/IEC 27001 is published by ISO and IEC; both are described here in our own words and cited by ID only. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
+SOC It 2 Me is readiness training, not audit or legal advice. Only a licensed CPA firm can issue a SOC 2 report. SOC 2 and the Trust Services Criteria are from the AICPA, and ISO/IEC 27001 is published by ISO and IEC. Both are described here in our own words and cited by ID only. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
 
 ## Checking a change
 

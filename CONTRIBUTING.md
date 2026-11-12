@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for wanting to make this better. People use this material to prepare for a real audit, so accuracy comes first.
+People use this material to prepare for a real audit, so accuracy comes first.
 
 ## What helps most
 

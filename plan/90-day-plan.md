@@ -11,11 +11,11 @@ This plan assumes one owner with about eight hours a week, help from engineering
 | 2 | Scope | [2](../course/02-scope.md) | Scope statement, system diagram, and vendor list drafted |
 | 3 | Risk assessment | [3](../course/03-risk.md) | Register with fifteen or more risks, owners, and sign-off |
 | 4 to 5 | Controls | [4](../course/04-controls.md) | Your own controls list, every criterion covered |
-| 6 to 7 | Policies | [5](../course/05-policies.md) | Policy set approved and published; acknowledgments started |
-| 8 | Evidence setup | [6](../course/06-evidence.md) | Tracker filled; logs and retention set; recurring tickets created |
+| 6 to 7 | Policies | [5](../course/05-policies.md) | Policy set approved and published, acknowledgments started |
+| 8 | Evidence setup | [6](../course/06-evidence.md) | Tracker filled, logs and retention set, recurring tickets created |
 | 9 to 10 | Close gaps | [4](../course/04-controls.md) | Every *start* control running, such as device management, training, or reviews |
-| 11 | Run the calendar | [7](../course/07-operate.md) | First access review and tabletop done; calendar shared |
-| 12 | Choose an auditor | [8](../course/08-the-audit.md) | Three firms interviewed; one engaged |
+| 11 | Run the calendar | [7](../course/07-operate.md) | First access review and tabletop done, calendar shared |
+| 12 | Choose an auditor | [8](../course/08-the-audit.md) | Three firms interviewed, one engaged |
 | 13 | Readiness check | [8](../course/08-the-audit.md) | Readiness assessment booked, or an internal walk-through of every control done |
 
 ## After week 13
