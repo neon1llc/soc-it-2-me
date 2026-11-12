@@ -20,7 +20,7 @@ It doesn't need to be elaborate. A spreadsheet with honest rows beats a consulta
    | Score | Likelihood | Impact |
    |---|---|---|
    | 1 | Less than once in ten years | Barely noticed |
-   | 3 | About once in a few years | Customers notice; a bad week |
+   | 3 | About once in a few years | Customers notice, and it costs a bad week |
    | 5 | Expected this year | Lose major customers or the company |
 
 4. **Multiply** for a risk score from 1 to 25. Anything 12 or above gets a treatment plan now.
@@ -30,7 +30,7 @@ It doesn't need to be elaborate. A spreadsheet with honest rows beats a consulta
 
 ## Running the session
 
-Book ninety minutes with leadership, the engineering lead, and whoever handles money and people. Bring a starter list of fifteen risks so nobody faces a blank page. Ask each person, "What keeps you up at night about this company?" and add their answers. Score together. Disagreement is useful; write down the reasoning.
+Book ninety minutes with leadership, the engineering lead, and whoever handles money and people. Bring a starter list of fifteen risks so nobody faces a blank page. Ask each person what worries them most about the company, and add their answers. Score together. Disagreement is useful. Write down the reasoning.
 
 > [!TIP]
 > **Tie risks to controls**
@@ -48,3 +48,9 @@ Copy the [risk register template](../templates/risk-register.csv). Fill in at le
 3. What two events should trigger a new assessment before the year is up?
 
 Next: [4. Write controls you can keep](04-controls.md).
+
+## Sources
+
+- [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework), from NIST: the risk and governance structure the risk method follows.
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.
+- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), from ISO: the information security management system standard and its Annex A controls, a paid standard cited here by clause and control number.

@@ -44,3 +44,8 @@ Anything major that changed during the window: a new system, a new provider, a r
 ## 9. Incidents
 
 Any significant incidents during the period that affected your commitments.
+
+## Sources
+
+- [SOC 2 overview](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2), from the AICPA: what a SOC 2 report is and who issues one.
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.

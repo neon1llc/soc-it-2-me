@@ -19,10 +19,15 @@ Controls: GOV-01 to GOV-05, RISK-01 to RISK-04.
 
 ## What good looks like
 
-Leadership meeting notes with a security agenda item and a decision, not just "security discussed." A risk register with a review date in the window and named owners. Policies whose approval date falls before the window starts.
+Leadership meeting notes with a security agenda item and a recorded decision. A risk register with a review date in the window and named owners. Policies whose approval date falls before the window starts.
 
 ## Common exceptions
 
 - Policies approved after the window started, so they weren't in effect for all of it.
 - Acknowledgments missing for contractors, or for people hired late in the window.
 - A risk assessment older than a year, or one that wasn't redone after a major change such as a new product.
+
+## Sources
+
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.
+- [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework), from NIST: the risk and governance structure the risk method follows.

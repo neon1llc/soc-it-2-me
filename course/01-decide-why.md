@@ -7,9 +7,9 @@ description: "Why you want SOC 2, whether it's the right answer yet, and how to 
 
 ## Why the reason matters
 
-SOC 2 is expensive in time more than money. A small company usually spends three to nine months of one person's part-time effort getting ready, then pays an audit firm. If you start without a clear reason, scope creeps, nobody owns the work, and the effort stalls when a busier quarter arrives.
+SOC 2 is expensive in time more than money. Getting ready usually takes several months of one person's part-time effort, and then you pay an audit firm. If you start without a clear reason, scope creeps, nobody owns the work, and the effort stalls when a busier quarter arrives.
 
-The common reasons, roughly in order of how often I hear them:
+The common reasons:
 
 1. **A specific customer asked.** A deal is waiting on the report. This sets your date and often your scope, because you can ask the customer what they need covered.
 2. **Your market expects it.** Every prospect in your segment sends a security questionnaire, and a report answers most of it at once.
@@ -22,8 +22,8 @@ Sometimes a lighter step closes the deal for now:
 
 - **A completed security questionnaire** (the customer's, or a standard one such as the CAIQ or SIG Lite) plus a short security overview page.
 - **A letter describing your readiness work** and the date you expect the report.
-- **ISO 27001** instead, if most of your customers are outside the United States. The controls overlap heavily; see the [controls map](../controls/controls-map.md).
-- **Nothing formal** if the customer only needs to know you use well-run cloud providers. Their SOC reports cover the data center; yours would cover what you do on top.
+- **ISO 27001** instead, if most of your customers are outside the United States. The controls overlap heavily, as the [controls map](../controls/controls-map.md).
+- **Nothing formal** if the customer only needs to know you use well-run cloud providers. Their SOC reports cover the data center, and yours would cover what you do on top.
 
 ## Type I or Type II
 
@@ -33,7 +33,7 @@ A **Type I** report says your controls were designed well on one date. A **Type 
 |---|---|---|
 | What it proves | Design, on one day | Design and operation, over a window |
 | Typical time to report after readiness | Weeks | The window, plus a few weeks |
-| What customers think of it | A good start | What most of them actually want |
+| What customers think of it | A good start | What most of them ask for |
 
 A common path is a Type I first, to have something to show quickly, then a Type II with a three-month window, then twelve-month windows after that. If your customer will accept only a Type II, start the observation window as soon as your controls are running, and skip the Type I.
 
@@ -61,3 +61,9 @@ Share the page with leadership and get a yes. That yes becomes your first piece 
 3. Why does the reason you write down affect scope?
 
 Next: [2. Draw the boundary](02-scope.md).
+
+## Sources
+
+- [SOC 2 overview](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2), from the AICPA: what a SOC 2 report is and who issues one.
+- [Mapping: 2017 Trust Services Criteria to ISO 27001](https://www.aicpa-cima.com/resources/download/mapping-2017-trust-services-criteria-to-iso-27001), from the AICPA: the official crosswalk to check the map's ISO column against.
+- [SOC 2 readiness track](https://github.com/neon1llc/ready-secure-go/tree/main/content/tracks/soc2), in Ready, Secure, Go: the plain-language introduction this course builds on.

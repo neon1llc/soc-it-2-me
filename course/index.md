@@ -26,3 +26,7 @@ Each module ends with a short check. If you can answer it without looking back, 
 > - What do you already do well that nobody has written down?
 
 Words you don't know are in the [glossary](glossary.md).
+
+## Sources
+
+- [SOC 2 readiness track](https://github.com/neon1llc/ready-secure-go/tree/main/content/tracks/soc2), in Ready, Secure, Go: the plain-language introduction this course builds on.

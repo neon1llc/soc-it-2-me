@@ -7,11 +7,11 @@ description: "Write a short, honest policy set that matches what your company do
 
 ## What policies are for
 
-A policy says what the company requires. Controls show it happens. Auditors read your policies first, then test whether your controls match them. The most common policy problem isn't a missing policy. It's a downloaded template promising things the company has never done.
+A policy says what the company requires. Controls show it happens. Auditors read your policies first, then test whether your controls match them. The most common policy problem is a downloaded template promising things the company has never done.
 
 ## The set you need
 
-Most small companies cover SOC 2 with about ten documents. Some combine several into one handbook, which is fine.
+A small company can usually cover SOC 2 with about ten documents. Some combine several into one handbook, which is fine.
 
 | Policy | Says |
 |---|---|
@@ -55,3 +55,8 @@ Draft the access control and incident response policies first, because they shap
 3. What four things go at the top of each policy?
 
 Next: [6. Evidence that holds up](06-evidence.md).
+
+## Sources
+
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.
+- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), from ISO: the information security management system standard and its Annex A controls, a paid standard cited here by clause and control number.

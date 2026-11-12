@@ -7,7 +7,7 @@ description: "44 starter controls for a small or growing company, each with an o
 
 Each row is one thing your company does, written so an auditor can test it: who does it, how often, and what proof it leaves. Start from these, then cut, merge, and reword until every line is true for you. A control you can't keep doing is worse than none, because the auditor will find the gap.
 
-The SOC 2 column cites Trust Services Criteria IDs, and the ISO 27001 column cites 2022 Annex A controls and clauses. Both are described in our own words; see [how to read the map](index.md).
+The SOC 2 column cites Trust Services Criteria IDs, and the ISO 27001 column cites 2022 Annex A controls and clauses. Both are described in our own words. See [how to read the map](index.md).
 
 ## Governance
 
@@ -162,3 +162,9 @@ Every criterion below should have at least one control. If you remove a control,
 | A1.3 | BCP-02, BCP-03 |
 | C1.1 | RISK-03, PPL-02, CHG-03, DATA-01 |
 | C1.2 | END-02, DATA-02 |
+
+## Sources
+
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.
+- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), from ISO: the information security management system standard and its Annex A controls, a paid standard cited here by clause and control number.
+- [Mapping: 2017 Trust Services Criteria to ISO 27001](https://www.aicpa-cima.com/resources/download/mapping-2017-trust-services-criteria-to-iso-27001), from the AICPA: the official crosswalk to check the ISO column against.

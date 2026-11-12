@@ -12,7 +12,7 @@ An auditor needs to see that a control happened, when, on which system, and by w
 - **Dated.** The date is part of the record, not typed on later.
 - **Attributable.** It shows who did or approved the thing.
 - **From the system of record.** An export from the identity provider beats a hand-typed list of users.
-- **Complete.** It covers the whole period and the whole population, not just the good examples.
+- **Complete.** It covers the whole period and the whole population, including the instances that went badly.
 - **Unedited.** A screenshot should show the URL or system name and the clock. Cropped screenshots raise questions.
 
 > [!NOTE]
@@ -28,11 +28,11 @@ For a Type II, the auditor doesn't check every event. They ask for the **populat
 - For quarterly controls, they usually test two or more of the instances, and in a short window, all of them.
 - For yearly controls, they test the one instance.
 
-Two consequences matter. First, you need to be able to produce a complete population, which means events have to be logged somewhere, not handled in chat. Second, one missed instance in a small population is a big share of it, so a missed quarterly review is an exception almost every time.
+Two consequences matter. First, you need to be able to produce a complete population, which means events have to be logged somewhere, not handled in chat. Second, one missed instance in a small population is a big share of it, and a missing quarter shows up as soon as the auditor asks for the population.
 
 ## Exceptions are survivable
 
-An **exception** is a sample that failed. It appears in the report with your management response explaining what happened and what you changed. One or two exceptions in a first Type II are common and rarely end a deal, but a pattern in one area is a warning sign to readers. A **qualified opinion** happens when a control failed badly enough that a criterion wasn't met, and that's the result to avoid.
+An **exception** is a sample that failed. It appears in the report with your management response explaining what happened and what you changed. Readers weigh how serious each exception is and how you responded. A single isolated exception reads very differently from a pattern in one area. A **qualified opinion** happens when a control failed badly enough that a criterion wasn't met, and that's the result to avoid.
 
 ## Collect as you go
 
@@ -52,7 +52,12 @@ Copy the evidence tracker. For each control on your list, fill in the expected i
 ## Check
 
 1. What's a population, and why must it be complete?
-2. Why is a missed quarterly control almost always an exception?
+2. Why does a missed quarterly control show up so easily?
 3. What turns an exception into a qualified opinion?
 
 Next: [7. Run it all year](07-operate.md).
+
+## Sources
+
+- [SOC 2 overview](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2), from the AICPA: what a SOC 2 report is and who issues one.
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.

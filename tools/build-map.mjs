@@ -48,7 +48,7 @@ description: "${controls.length} starter controls for a small or growing company
 
 Each row is one thing your company does, written so an auditor can test it: who does it, how often, and what proof it leaves. Start from these, then cut, merge, and reword until every line is true for you. A control you can't keep doing is worse than none, because the auditor will find the gap.
 
-The SOC 2 column cites Trust Services Criteria IDs, and the ISO 27001 column cites 2022 Annex A controls and clauses. Both are described in our own words; see [how to read the map](index.md).
+The SOC 2 column cites Trust Services Criteria IDs, and the ISO 27001 column cites 2022 Annex A controls and clauses. Both are described in our own words. See [how to read the map](index.md).
 
 `;
 
@@ -70,6 +70,15 @@ for (const k of CRITERIA) {
   if (!ids.length) gaps.push(k);
   md += `| ${k} | ${ids.join(", ") || "**gap**"} |\n`;
 }
+
+// Sources close the page, as on every other page
+md += `
+## Sources
+
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.
+- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), from ISO: the information security management system standard and its Annex A controls, a paid standard cited here by clause and control number.
+- [Mapping: 2017 Trust Services Criteria to ISO 27001](https://www.aicpa-cima.com/resources/download/mapping-2017-trust-services-criteria-to-iso-27001), from the AICPA: the official crosswalk to check the ISO column against.
+`;
 
 // Write, or in --check mode compare and fail when stale or when a criterion has no control
 if (process.argv.includes("--check")) {

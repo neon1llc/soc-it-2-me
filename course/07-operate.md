@@ -15,10 +15,10 @@ Put each recurring control on a shared calendar with the owner and a backup. The
 
 | When | What |
 |---|---|
-| Every quarter | Access reviews; secrets and admin list review; system inventory refresh; security update to leadership |
+| Every quarter | Access reviews, secrets and admin list review, system inventory refresh, security update to leadership |
 | Twice a year | Leadership review of the program |
-| Every year | Risk assessment; policy review and acknowledgments; security training; vendor reviews; penetration test; restore test; tabletop exercise; continuity plan review; readiness or internal review |
-| Every event | Access requests and removals; code review; incident handling; device wipes; vendor onboarding |
+| Every year | Risk assessment, policy review and acknowledgments, security training, vendor reviews, penetration test, restore test, tabletop exercise, continuity plan review, readiness or internal review |
+| Every event | Access requests and removals, code review, incident handling, device wipes, vendor onboarding |
 
 ## Running an access review
 
@@ -52,3 +52,9 @@ Create the shared calendar with every recurring control from your list, each wit
 3. What do you do when a control owner leaves mid-window?
 
 Next: [8. The audit, and after](08-the-audit.md).
+
+## Sources
+
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.
+- [CISA Tabletop Exercise Packages](https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages), from CISA: ready-made scenarios and the tabletop format.
+- [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final), from NIST: incident response recommendations behind the incident report and tabletop guidance.

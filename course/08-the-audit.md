@@ -48,8 +48,8 @@ Read it the way a customer's security team will. Look for exceptions, scope gaps
 ## After the report
 
 - **Share it under NDA**, usually through a trust page or on request.
-- **Keep the window rolling.** Most companies move to a twelve-month period that starts when the last one ended, so there's no gap.
-- **Use bridge letters** to cover the months between the end of one period and the next report. A bridge letter is your own statement that nothing material has changed; it isn't from the auditor.
+- **Keep the window rolling.** Move to a twelve-month period that starts when the last one ended, so there's no gap in coverage.
+- **Use bridge letters** to cover the months between the end of one period and the next report. A bridge letter is your own statement that nothing material has changed. The auditor doesn't issue it.
 - **Grow on purpose.** Add criteria, such as Availability, when customers need them. If you're heading to ISO 27001, the controls map already carries Annex A references. ISO adds a management system: a scope statement, a statement of applicability listing every Annex A control and why it applies or doesn't, a risk treatment plan, internal audits, and management reviews.
 
 ## Check
@@ -59,3 +59,8 @@ Read it the way a customer's security team will. Look for exceptions, scope gaps
 3. What does a bridge letter do, and who writes it?
 
 That's the course. Keep the [calendar](../plan/observation-calendar.md) running, and come back to [module 3](03-risk.md) each year when the risk assessment is due.
+
+## Sources
+
+- [SOC 2 overview](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2), from the AICPA: what a SOC 2 report is and who issues one.
+- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), from ISO: the information security management system standard and its Annex A controls, a paid standard cited here by clause and control number.

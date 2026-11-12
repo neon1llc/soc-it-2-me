@@ -7,7 +7,7 @@ description: "Teach the SOC It 2 Me course as a half-day workshop or a two-day i
 
 **You'll need:** a projector, printed copies of the [controls map](../controls/controls-map.md) and [evidence checklists](../evidence/index.md), laptops for each company team, and the [templates](../templates/index.md) shared ahead of time.
 
-**Tone:** practical and calm. Most people arrive worried about cost and paperwork. Show them how much they already do.
+**Tone:** practical. Cost and paperwork are the usual concerns, so show teams how much of the work they already do.
 
 ## Half-day format (4 hours)
 
@@ -18,7 +18,7 @@ description: "Teach the SOC It 2 Me course as a half-day workshop or a two-day i
 | 0:35 | Scope: draw your system on one page | [Module 2](../course/02-scope.md) exercise |
 | 1:05 | Risk: fifteen risks in fifteen minutes, then score the top five | [Module 3](../course/03-risk.md) exercise |
 | 1:40 | Break | |
-| 1:50 | What a control is; rewrite three weak controls together | [Module 4](../course/04-controls.md) |
+| 1:50 | What a control is, rewrite three weak controls together | [Module 4](../course/04-controls.md) |
 | 2:20 | Cut the map: each team marks keep, rewrite, start, or cut for one area | Controls map |
 | 2:50 | Evidence: weak and strong examples, and how sampling works | [Module 6](../course/06-evidence.md) |
 | 3:20 | The year and the audit: calendar, auditor questions, the report | [Modules 7](../course/07-operate.md) and [8](../course/08-the-audit.md) |
@@ -37,10 +37,15 @@ Day one covers modules 1 to 4 with the full exercises, ending with each team's o
 
 ## Common questions
 
-- *Do we need a compliance platform?* No. It can save time on evidence collection once you have controls, but it can't decide your scope or run your access reviews. Start with this course and a spreadsheet; buy a platform later if the evidence load justifies it.
+- *Do we need a compliance platform?* No. It can save time on evidence collection once you have controls, but it can't decide your scope or run your access reviews. Start with this course and a spreadsheet, and buy a platform later if the evidence load justifies it.
 - *How much does the audit cost?* It varies widely by firm, scope, and report type. Get at least three quotes.
-- *Can we do it without a security person?* Yes, with a named owner who has real time. Many first reports are run by an operations or engineering lead.
+- *Can we do it without a security person?* Yes, with a named owner who has real time. An operations or engineering lead can run a first report.
 
 ## After the workshop
 
 Send each team the links to the course, their marked-up controls list, and a reminder of the date they named. A short check-in at 30 days helps most teams keep going.
+
+## Sources
+
+- [CISA Tabletop Exercise Packages](https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages), from CISA: ready-made scenarios and the tabletop format.
+- [SOC 2 readiness track](https://github.com/neon1llc/ready-secure-go/tree/main/content/tracks/soc2), in Ready, Secure, Go: the plain-language introduction this course builds on.
