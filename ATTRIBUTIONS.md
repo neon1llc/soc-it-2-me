@@ -1,6 +1,6 @@
 # Attributions
 
-SOC It 2 Me is written in our own words. These are the sources it leans on, and how.
+SOC 2 Readiness is written in our own words. These are the sources it leans on, and how.
 
 ## Referenced (linked and mapped, not copied)
 

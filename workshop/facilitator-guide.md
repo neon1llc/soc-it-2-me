@@ -1,6 +1,6 @@
 ---
 title: Facilitator guide
-description: "Teach the SOC It 2 Me course as a half-day workshop or a two-day intensive, with timings, materials, and the exercises that work best in a room."
+description: "Teach the SOC 2 Readiness course as a half-day workshop or a two-day intensive, with timings, materials, and the exercises that work best in a room."
 ---
 
 **Audience:** founders, operators, security owners, and engineering leads at companies preparing for a first SOC 2 report. Groups of 4 to 20 work best, ideally two or three people from each company so they can work on their own material together.
