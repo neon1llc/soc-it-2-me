@@ -1,6 +1,6 @@
 ---
 title: The course
-description: "Eight modules that take a small or growing company from a customer's first SOC 2 question to a clean first audit."
+description: "Eight modules that take a small or growing company from a customer's first SOC 2 question to being prepared for a first audit."
 ---
 
 Each module takes about an hour: twenty minutes to read, thirty to do the exercise on your own company, and ten for the check. Do them in order, one a week, alongside the [90-day plan](../plan/90-day-plan.md).
