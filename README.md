@@ -1,8 +1,10 @@
 # SOC 2 readiness, step by step
 
-**Hands-on SOC 2 readiness training for small and growing companies.** A course, a controls map, evidence checklists, and templates that take a team from "a customer asked for our SOC 2 report" to a clean first audit, without buying a compliance platform first.
+**Hands-on SOC 2 readiness training for small and growing companies.** A course, a controls map, evidence checklists, and templates that help a team prepare for its first SOC 2 audit, from "a customer asked for our SOC 2 report" to controls that run and evidence an auditor can test, without buying a compliance platform first.
 
 From [neon1](https://neon1.tech). *1 is glad to be of service.*
+
+**Status:** the scope is stable. This repository gets accuracy and source updates, and no new modules for now.
 
 ---
 
@@ -32,7 +34,7 @@ You don't need a security background. You do need someone with real time to own 
 2. Copy the [controls CSV](controls/controls.csv) and the [evidence tracker](templates/evidence-tracker.csv) into your own spreadsheet.
 3. Follow the [90-day plan](plan/90-day-plan.md), taking one module a week.
 
-New to SOC 2 altogether? Read the [SOC 2 track in Ready, Secure, Go](https://github.com/neon1llc/ready-secure-go/tree/main/content/tracks/soc2) first. It explains what SOC 2 is in plain words. SOC It 2 Me is the hands-on part: the work, the forms, and the evidence.
+New to SOC 2 altogether? Read the [SOC 2 track in Ready, Secure, Go](https://github.com/neon1llc/ready-secure-go/tree/main/content/tracks/soc2) first. It explains what SOC 2 is in plain words. SOC 2 Readiness is the hands-on part: the work, the forms, and the evidence.
 
 ## Growing past SOC 2
 
@@ -40,7 +42,7 @@ The controls map carries ISO 27001:2022 references next to the SOC 2 criteria, s
 
 ## What this isn't
 
-SOC It 2 Me is readiness training, not audit or legal advice. Only a licensed CPA firm can issue a SOC 2 report. SOC 2 and the Trust Services Criteria are from the AICPA, and ISO/IEC 27001 is published by ISO and IEC. Both are described here in our own words and cited by ID only. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
+SOC 2 Readiness is readiness training, not audit or legal advice. It helps a team prepare, and it can't promise an audit result. Only a licensed CPA firm can issue a SOC 2 report, and the opinion in it is the auditor's. SOC 2 and the Trust Services Criteria are from the AICPA, and ISO/IEC 27001 is published by ISO and IEC. Both are described here in our own words and cited by ID only. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
 
 ## Checking a change
 
@@ -53,10 +55,10 @@ node tools/build-map.mjs    # rebuild controls-map.md after editing controls.csv
 
 | What | License | What it means |
 |---|---|---|
-| Written material (everything except `tools/` and `.github/`) | [CC BY-SA 4.0](LICENSE) | Share it, teach from it, adapt it, even commercially. Credit it as *"Based on SOC It 2 Me by neon1 (neon1.tech), CC BY-SA 4.0"* and share your changes under the same license. |
+| Written material (everything except `tools/` and `.github/`) | [CC BY-SA 4.0](LICENSE) | Share it, teach from it, adapt it, even commercially. Credit it as *"Based on SOC 2 Readiness by neon1 (neon1.tech), CC BY-SA 4.0"* and share your changes under the same license. |
 | Code (`tools/`, `.github/`) | [MIT](LICENSE-CODE) | Use it for anything, keeping the copyright notice. |
-| The SOC It 2 Me and neon1 names and the neon1 logo | Reserved | Not covered by either license. See [TRADEMARK.md](TRADEMARK.md). |
+| The SOC 2 Readiness and neon1 names and the neon1 logo | Reserved | Not covered by either license. See [TRADEMARK.md](TRADEMARK.md). |
 
-SOC It 2 Me is © 2026 neon1 LLC. Keep the [NOTICE](NOTICE) file in copies and adaptations.
+SOC 2 Readiness is © 2026 neon1 LLC. Keep the [NOTICE](NOTICE) file in copies and adaptations.
 
 Found something wrong or outdated? See [SECURITY.md](SECURITY.md). Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
