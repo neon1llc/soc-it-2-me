@@ -1,4 +1,4 @@
-# SOC It 2 Me
+# SOC 2 readiness, step by step
 
 **Hands-on SOC 2 readiness training for small and growing companies.** A course, a controls map, evidence checklists, and templates that take a team from "a customer asked for our SOC 2 report" to a clean first audit, without buying a compliance platform first.
 
