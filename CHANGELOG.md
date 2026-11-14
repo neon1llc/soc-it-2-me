@@ -1,6 +1,13 @@
 # Changelog
 
-SOC It 2 Me releases use `v0.MINOR.PATCH` until the first complete release, v1.0.0, following neon1's [versioning standard](https://neon1.tech/knowledge/standards/versioning/). Each version below has an annotated tag on the commit it names; the release workflow adds missing tags and never moves one.
+SOC 2 Readiness releases use `v0.MINOR.PATCH` until the first complete release, v1.0.0, following neon1's [versioning standard](https://neon1.tech/knowledge/standards/versioning/). Each version below has an annotated tag on the commit it names; the release workflow adds missing tags and never moves one.
+
+## v0.1.3 - 2026-11-13
+
+### Changed
+- The project is now called SOC 2 Readiness, in the README, LICENSE, NOTICE, TRADEMARK.md, attributions, and workshop guide. The credit line in LICENSE and NOTICE uses the new name.
+- The README and course overview describe what the material helps a team prepare for, and say that it can't promise an audit result. The audit opinion is the auditor's.
+- The README says the scope is stable: the repository gets accuracy and source updates, and no new modules for now.
 
 ## v0.1.2 - 2026-11-12
 
